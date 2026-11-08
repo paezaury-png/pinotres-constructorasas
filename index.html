@@ -1,14 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#102d26">
+  <meta name="theme-color" content="#102b25">
 
-  <meta name="description" content="PINOTRES Constructora. Creamos espacios que transforman la manera de vivir.">
+  <meta name="description" content="PINOTRES Constructora. Arquitectura, proyectos inmobiliarios y espacios diseñados para vivir mejor.">
 
-  <title>PINOTRES | Arquitectura para vivir mejor</title>
+  <title>PINOTRES | Arquitectura que transforma</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,45 +19,194 @@
 
 <body>
 
-  <header id="header">
+  <!-- NAVEGACIÓN -->
+  <header class="header" id="header">
     <a href="#inicio" class="logo">PINOTRES<span>.</span></a>
 
-    <nav>
+    <nav class="navigation">
       <a href="#nosotros">Nosotros</a>
       <a href="#proyectos">Proyectos</a>
-      <a href="#experiencia">Experiencia</a>
-      <a href="#contacto">Contacto</a>
+      <a href="#filosofia">Filosofía</a>
+      <a href="#videos">Experiencias</a>
     </nav>
 
-    <a href="#contacto" class="header-button">Hablemos ↗</a>
+    <a href="#contacto" class="header-contact">Hablemos ↗</a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
   </header>
 
   <main>
+
+    <!-- PORTADA -->
     <section class="hero" id="inicio">
-      <p>PINOTRES CONSTRUCTORA · CUNDINAMARCA</p>
-      <h1>Arquitectura que transforma espacios en experiencias.</h1>
-      <a href="#proyectos">Descubre nuestros proyectos ↗</a>
+
+      <div class="hero-image"></div>
+
+      <div class="hero-content">
+        <span class="eyebrow">PINOTRES CONSTRUCTORA · COLOMBIA</span>
+
+        <h1>
+          La arquitectura<br>
+          también construye<br>
+          <em>emociones.</em>
+        </h1>
+
+        <p>
+          Creamos espacios donde el diseño,
+          la funcionalidad y la calidad de vida
+          encuentran su mejor expresión.
+        </p>
+
+        <a href="#proyectos" class="primary-button">
+          Explorar proyectos ↗
+        </a>
+      </div>
+
+      <div class="hero-footer">
+        <span>DISEÑAMOS CON PROPÓSITO</span>
+        <span>01 — 04</span>
+      </div>
+
     </section>
 
-    <section id="nosotros">
-      <h2>Construimos pensando en cómo quieres vivir.</h2>
+    <!-- FILOSOFÍA -->
+    <section class="intro section-padding" id="nosotros">
+
+      <div class="section-label">01 / NUESTRA ESENCIA</div>
+
+      <div class="intro-content">
+        <h2>
+          No construimos<br>
+          solamente espacios.<br>
+          <span>Construimos futuro.</span>
+        </h2>
+
+        <div class="intro-description">
+          <p>
+            En PINOTRES creemos que cada proyecto
+            representa una oportunidad para transformar
+            la manera en que las personas viven,
+            sienten y se relacionan con su entorno.
+          </p>
+
+          <a href="#contacto" class="text-link">
+            Conoce nuestra visión ↗
+          </a>
+        </div>
+      </div>
+
     </section>
 
-    <section id="proyectos">
-      <h2>Proyectos que inspiran.</h2>
+    <!-- PROYECTOS -->
+    <section class="projects section-padding" id="proyectos">
+
+      <div class="section-heading">
+        <div>
+          <span class="section-label">02 / NUESTRO TRABAJO</span>
+          <h2>Proyectos que<br>inspiran.</h2>
+        </div>
+
+        <p>
+          Espacios pensados para disfrutar,
+          invertir y construir nuevas historias.
+        </p>
+      </div>
+
+      <article class="project-card">
+        <div class="project-image"></div>
+
+        <div class="project-info">
+          <div>
+            <span>PROYECTO DESTACADO · CUNDINAMARCA</span>
+            <h3>Altezza</h3>
+            <p>Una nueva forma de vivir y disfrutar cada espacio.</p>
+          </div>
+
+          <a href="#contacto" class="project-link">Descubrir proyecto ↗</a>
+        </div>
+      </article>
+
     </section>
 
-    <section id="experiencia">
-      <h2>Más que espacios, nuevas experiencias.</h2>
+    <!-- FILOSOFÍA -->
+    <section class="philosophy section-padding" id="filosofia">
+
+      <span class="section-label">03 / NUESTRA FILOSOFÍA</span>
+
+      <h2>
+        Pensamos diferente.<br>
+        Diseñamos con intención.<br>
+        <em>Construimos con propósito.</em>
+      </h2>
+
+      <div class="philosophy-bottom">
+        <p>
+          Cada detalle importa. Desde la concepción
+          arquitectónica hasta la experiencia de
+          quienes habitan nuestros proyectos.
+        </p>
+
+        <span>PINOTRES · CONSTRUCTORA</span>
+      </div>
+
     </section>
 
-    <section id="contacto">
-      <h2>Tu próxima historia comienza aquí.</h2>
+    <!-- VIDEOS -->
+    <section class="videos section-padding" id="videos">
+
+      <div class="section-heading">
+        <div>
+          <span class="section-label">04 / CONOCE PINOTRES</span>
+          <h2>Más allá<br>de los planos.</h2>
+        </div>
+
+        <p>
+          Descubre nuestros proyectos,
+          recorridos y experiencias.
+        </p>
+      </div>
+
+      <div class="video-container">
+        <div class="video-placeholder">
+          <span>PRÓXIMAMENTE</span>
+          <p>Historias que cobran vida.</p>
+        </div>
+      </div>
+
     </section>
+
+    <!-- CONTACTO -->
+    <section class="contact section-padding" id="contacto">
+
+      <span class="section-label">05 / HAGAMOS ALGO EXTRAORDINARIO</span>
+
+      <h2>
+        Tu próxima historia<br>
+        puede comenzar <em>aquí.</em>
+      </h2>
+
+      <p>
+        Conversemos sobre tu próximo proyecto
+        o tu próxima inversión.
+      </p>
+
+      <a href="https://wa.me/573183504518" class="primary-button">
+        Hablemos por WhatsApp ↗
+      </a>
+
+    </section>
+
   </main>
 
-  <footer>
-    <p>PINOTRES CONSTRUCTORA © 2026</p>
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer">
+
+    <a href="#inicio" class="logo">PINOTRES<span>.</span></a>
+
+    <p>Diseñamos espacios. Construimos nuevas historias.</p>
+
+    <span>© 2026 PINOTRES CONSTRUCTORA</span>
+
   </footer>
 
   <script src="script.js"></script>
